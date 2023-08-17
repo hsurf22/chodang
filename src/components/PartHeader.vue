@@ -1,7 +1,7 @@
 <template>
   <div class="header">
     <div>
-      <img @src="Logo" alt="Main Logo" />
+      <img :src="Logo" alt="Main Logo" />
       <div>
         <div>menu</div>
         <div>
