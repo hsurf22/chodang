@@ -6,6 +6,8 @@
   </div>
 </template>
 
+<style lang="scss"></style>
+
 <script>
 import PartHeader from "@/components/PartHeader.vue";
 import PartFooter from "@/components/PartFooter.vue";
