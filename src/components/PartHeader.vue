@@ -1,8 +1,5 @@
 <template>
   <div class="header">
-    <!-- Logo image -->
-    <img class="main-logo" :src="Logo" alt="Main Logo" />
-
     <!-- Store locations -->
     <div class="store-location">
       <ul class="container d-flex justify-content-start">
@@ -17,7 +14,13 @@
     <div class="menu-content">
       <div class="container">
         <div class="main-menu">
+          <!-- Logo image -->
+          <div class="main-logo">
+            <img :src="Logo" alt="Main Logo" />
+          </div>
+
           <ul class="d-flex justify-content-start">
+            <li>Menu</li>
             <li>Locations</li>
             <li>About us</li>
             <li>FAQ</li>
@@ -46,18 +49,11 @@ export default {
 </script>
 
 <style scoped lang="scss">
-.header {
-  position: relative;
-  .main-logo {
-    max-height: 110px;
-    position: absolute;
-    left: 20px;
-  }
-}
 .store-location {
-  padding-left: 40px;
   background-color: #333333;
   ul {
+    padding-left: 130px;
+    margin-bottom: 0;
     li {
       padding: 3px 17px;
       font-weight: 800;
@@ -74,7 +70,20 @@ export default {
   background-color: #df4636;
 }
 .main-menu {
+  padding-left: 100px;
+  .main-logo {
+    position: relative;
+    img {
+      filter: drop-shadow(2px 2px 1px rgba(0, 0, 0, 0.3));
+      position: absolute;
+      top: -17px;
+      left: -90px;
+      height: 100px;
+    }
+  }
   ul {
+    margin: 0;
+    padding: 0;
     li {
       padding: 23px 20px;
       font-weight: 800;
