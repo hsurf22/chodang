@@ -1,19 +1,8 @@
 <template>
   <div class="home">
     <PartHeader />
-    <b-container>
-      <b-row>
-        <b-col>1</b-col>
-        <b-col>1</b-col>
-        <b-col>1</b-col>
-      </b-row>
-      <b-row>
-        <b-col>1</b-col>
-        <b-col>1</b-col>
-        <b-col>1</b-col>
-      </b-row>
-      <PartMainBanner />
-    </b-container>
+
+    <PartMainBanner />
 
     <PartFooter />
   </div>
