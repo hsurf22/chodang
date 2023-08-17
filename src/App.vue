@@ -8,5 +8,10 @@
   <router-view />
 </template>
 
-<style lang="scss"></style>
-fdsfdsfd
+<style lang="scss">
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+</style>
