@@ -33,7 +33,7 @@
 </template>
 
 <script>
-import LogoImg from "@/assets/img/chodang-logo.png";
+import LogoImg from "@/assets/img/chodang-logo-white.png";
 
 export default {
   name: "PartHeader",
@@ -52,7 +52,7 @@ export default {
 .store-location {
   background-color: #333333;
   ul {
-    padding-left: 130px;
+    padding-left: 175px;
     margin-bottom: 0;
     li {
       padding: 3px 17px;
@@ -70,15 +70,15 @@ export default {
   background-color: #df4636;
 }
 .main-menu {
-  padding-left: 100px;
+  padding-left: 150px;
   .main-logo {
     position: relative;
     img {
-      filter: drop-shadow(2px 2px 1px rgba(0, 0, 0, 0.3));
+      filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.3));
       position: absolute;
-      top: -17px;
-      left: -90px;
-      height: 100px;
+      top: -13px;
+      left: -140px;
+      height: 70px;
     }
   }
   ul {
