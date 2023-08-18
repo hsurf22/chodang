@@ -32,12 +32,12 @@
             <h9 class="text-center">
               (We are located inside the Diamond Bar Towne Center)
             </h9>
-            <div class="mt-4 text-center google-maps-link">
-              <a
-                href="https://www.google.com/maps/place/Cho+Dang+Tofu+Restaurant/@34.0413509,-117.9333359,10.01z/data=!3m1!5s0x80c32c8dafa2d463:0x993adb89e792ccdd!4m14!1m7!3m6!1s0x80c32c8db034fbdf:0x4c4611f3bd033179!2sCho+Dang+Tofu+Restaurant!8m2!3d34.002587!4d-117.811318!16s%2Fg%2F1vfn6y4s!3m5!1s0x80c32c8db034fbdf:0x4c4611f3bd033179!8m2!3d34.002587!4d-117.811318!16s%2Fg%2F1vfn6y4s?entry=ttu"
-                target="_blank"
-                style="text-decoration: none; color: white"
-              >
+            <a
+              href="https://www.google.com/maps/place/Cho+Dang+Tofu+Restaurant/@34.0413509,-117.9333359,10.01z/data=!3m1!5s0x80c32c8dafa2d463:0x993adb89e792ccdd!4m14!1m7!3m6!1s0x80c32c8db034fbdf:0x4c4611f3bd033179!2sCho+Dang+Tofu+Restaurant!8m2!3d34.002587!4d-117.811318!16s%2Fg%2F1vfn6y4s!3m5!1s0x80c32c8db034fbdf:0x4c4611f3bd033179!8m2!3d34.002587!4d-117.811318!16s%2Fg%2F1vfn6y4s?entry=ttu"
+              target="_blank"
+              style="text-decoration: none; color: white"
+            >
+              <div class="mt-4 text-center google-maps-link">
                 <img
                   class="google-maps"
                   :src="Location"
@@ -51,8 +51,8 @@
                   />
                   Click here to see on Google Maps
                 </h10>
-              </a>
-            </div>
+              </div>
+            </a>
           </div>
         </b-container>
       </div>
