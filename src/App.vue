@@ -68,6 +68,9 @@ ul {
 .mb-6 {
   margin-bottom: 3.5rem !important;
 }
+.mb-7 {
+  margin-bottom: 4rem !important;
+}
 .mb-n1 {
   margin-bottom: -0.25rem !important;
 }

@@ -1,37 +1,33 @@
 <template>
-  <div class="menu py-9">
+  <div class="menu py-9" v-if="menu">
     <b-container>
-      <h2 class="menu-title text-center font-menu text-uppercase mb-6">
-        Discover Our Menu
+      <h2 class="menu-title text-center font-menu text-uppercase mb-7">
+        {{ menu.title }}
       </h2>
-      <b-row>
-        <b-col cols="3" class="menu-item text-center">
+      <b-row v-for="(sub_menu, subMenuKey) in menu.sub_menus" :key="subMenuKey">
+        <div class="text-center sub-menu-title font-menu text-uppercase mb-5">
+          {{ sub_menu.sub_menu_title }}
+        </div>
+        <b-col
+          v-for="(item, itemKey) in sub_menu.sub_menu_items"
+          :key="itemKey"
+          cols="3"
+          class="menu-item text-center"
+        >
           <div class="menu-item-image mb-4">
-            <img :src="TricolorJeon" alt="Tricolor Jeon" />
+            <img :src="item.img" :alt="item.item_title" />
           </div>
           <div>
-            <div class="menu-item-title font-menu-small">
-              3 flavors Korean pancake
+            <div class="menu-item-title font-menu-small text-capitalize mb-2">
+              {{ item.item_title }}
             </div>
-            <div class="menu-item-subtitle font-menu-small">
-              (Scallion, Kimchi, Potato curry)
+            <div class="menu-item-subtitle font-menu-small mb-2">
+              {{ item.item_sub_title }}
             </div>
-            <div class="menu-item-description">Soy sauce, Barley tea</div>
-          </div>
-        </b-col>
-        <b-col cols="3" class="menu-item">
-          <div class="menu-item-image">
-            <img :src="TricolorJeon" alt="Tricolor Jeon" />
-          </div>
-        </b-col>
-        <b-col cols="3" class="menu-item">
-          <div class="menu-item-image">
-            <img :src="TricolorJeon" alt="Tricolor Jeon" />
-          </div>
-        </b-col>
-        <b-col cols="3" class="menu-item">
-          <div class="menu-item-image">
-            <img :src="TricolorJeon" alt="Tricolor Jeon" />
+            <div class="menu-item-description font-menu-small mb-3">
+              {{ item.item_description }}
+            </div>
+            <div class="menu-item-price font-menu-small">${{ item.price }}</div>
           </div>
         </b-col>
       </b-row>
@@ -41,7 +37,6 @@
 
 <script>
 import axios from "axios";
-import TricolorJeon from "@/assets/img/menu/tricolor-jeon.jpg";
 
 export default {
   name: "PartMenu",
@@ -50,19 +45,14 @@ export default {
   },
   data: () => {
     return {
-      TricolorJeon: TricolorJeon,
+      menu: null,
     };
   },
   methods: {
     async getMenuData() {
-      const res = await axios.get("menu/menu.json");
-      console.log(res.data);
-      /*
-      fetch("http://192.168.1.59:8080/menu.json")
-        .then((response) => response.json())
-        .then((data) => {
-          console.log(data);
-        });*/
+      const res = await axios.get("/menu/menu.json");
+      const menuData = res.data;
+      this.menu = menuData.menu;
     },
   },
   mounted() {
@@ -72,11 +62,16 @@ export default {
 </script>
 
 <style scoped lang="scss">
+.menu {
+  background-color: #121618;
+}
 .menu-title {
   color: white;
 }
-.menu {
-  background-color: #121618;
+.sub-menu-title {
+  color: white;
+  font-size: 1.3rem;
+  font-weight: 600;
 }
 .menu-item {
   color: white;
@@ -89,6 +84,10 @@ export default {
   }
   .menu-item-description {
     font-size: 0.8rem;
+    font-weight: 400;
+  }
+  .menu-item-price {
+    font-size: 1.6rem;
     font-weight: 400;
   }
   .menu-item-image {

@@ -49,7 +49,8 @@
                     :src="GoogleMaps"
                     alt="Google Maps"
                   />
-                  Click here to see on Google Maps
+                  Click here to see the location<br />
+                  on Google Maps
                 </div>
               </div>
             </a>
@@ -112,12 +113,12 @@ export default {
     border-radius: 50%;
     height: 100px;
     width: 100px;
-    transition: all 0.4s ease;
+    transition: all 0.2s ease;
   }
 
   &:hover {
     .google-maps {
-      filter: drop-shadow(0px 0px 10px rgba(255, 255, 255, 0.6));
+      filter: drop-shadow(0px 0px 10px rgba(255, 255, 255, 0.5));
     }
   }
 }

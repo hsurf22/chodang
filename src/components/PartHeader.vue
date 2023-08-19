@@ -77,7 +77,7 @@ export default {
       filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.3));
       position: absolute;
       top: -13px;
-      left: -140px;
+      left: -150px;
       height: 70px;
     }
   }

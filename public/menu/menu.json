@@ -8,26 +8,30 @@
           {
             "item_title": "3 flavors Korean pancake",
             "item_sub_title": "(Scallion, Kimchi, Potato curry)",
-            "item_description": "Soy sauce, Barley tea
-            "
+            "item_description": "Soy sauce, Barley tea",
+            "price": "15.99",
+            "img": "/menu/images/anju/3-flavors-korean-pancake.jpg"
           },
           {
-            "item_title": "3 flavors Korean pancake",
-            "item_sub_title": "(Scallion, Kimchi, Potato curry)",
-            "item_description": "Soy sauce, Barley tea
-            "
+            "item_title": "Cheese Potato Korean pancake",
+            "item_sub_title": "",
+            "item_description": "Soy sauce, Barley tea",
+            "price": "16.99",
+            "img": "/menu/images/anju/cheese_potato_korean_pancake.jpg"
           },
           {
-            "item_title": "3 flavors Korean pancake",
-            "item_sub_title": "(Scallion, Kimchi, Potato curry)",
-            "item_description": "Soy sauce, Barley tea
-            "
+            "item_title": "Tofu cutlet",
+            "item_sub_title": "",
+            "item_description": "Veggie mix, Corn Salad, Vaidamic sauce, Ranch sauce, Barley tea",
+            "price": "14.99",
+            "img": "/menu/images/anju/tofu-cutlet.jpg"
           },
           {
-            "item_title": "3 flavors Korean pancake",
-            "item_sub_title": "(Scallion, Kimchi, Potato curry)",
-            "item_description": "Soy sauce, Barley tea
-            "
+            "item_title": "Grilled beef galbi",
+            "item_sub_title": "",
+            "item_description": "Barley tea",
+            "price": "22.99",
+            "img": "/menu/images/anju/grilled-beef-galbi.jpg"
           }
         ]
       }
