@@ -1,0 +1,36 @@
+{
+  "menu": {
+    "title": "Discover Our Menu",
+    "sub_menus": [
+      {
+        "sub_menu_title": "Anju",
+        "sub_menu_items": [
+          {
+            "item_title": "3 flavors Korean pancake",
+            "item_sub_title": "(Scallion, Kimchi, Potato curry)",
+            "item_description": "Soy sauce, Barley tea
+            "
+          },
+          {
+            "item_title": "3 flavors Korean pancake",
+            "item_sub_title": "(Scallion, Kimchi, Potato curry)",
+            "item_description": "Soy sauce, Barley tea
+            "
+          },
+          {
+            "item_title": "3 flavors Korean pancake",
+            "item_sub_title": "(Scallion, Kimchi, Potato curry)",
+            "item_description": "Soy sauce, Barley tea
+            "
+          },
+          {
+            "item_title": "3 flavors Korean pancake",
+            "item_sub_title": "(Scallion, Kimchi, Potato curry)",
+            "item_description": "Soy sauce, Barley tea
+            "
+          }
+        ]
+      }
+    ]
+  }
+}

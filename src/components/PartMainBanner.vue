@@ -12,26 +12,26 @@
               Location information
             </h3>
             <h5 class="text-center text-uppercase mb-4">Diamond Bar</h5>
-            <h8
-              class="text-center font-weight-800 text-gray-800 text-uppercase mb-2"
+            <div
+              class="h8 text-center font-weight-800 text-gray-800 text-uppercase mb-2"
             >
               Business hours
-            </h8>
-            <h9 class="text-center mb-4">We are open from 9AM - 11PM</h9>
+            </div>
+            <div class="h9 text-center mb-4">We are open from 9AM - 11PM</div>
 
-            <h8
-              class="text-center font-weight-800 text-gray-800 text-uppercase mb-2"
+            <div
+              class="h8 text-center font-weight-800 text-gray-800 text-uppercase mb-2"
             >
               Address
-            </h8>
-            <h9 class="text-center">
+            </div>
+            <div class="h9 text-center">
               1155 S Diamond Bar Blvd #M
               <br />
               Diamond Bar, CA 91765
-            </h9>
-            <h9 class="text-center">
+            </div>
+            <div class="h9 text-center">
               (We are located inside the Diamond Bar Towne Center)
-            </h9>
+            </div>
             <a
               href="https://www.google.com/maps/place/Cho+Dang+Tofu+Restaurant/@34.0413509,-117.9333359,10.01z/data=!3m1!5s0x80c32c8dafa2d463:0x993adb89e792ccdd!4m14!1m7!3m6!1s0x80c32c8db034fbdf:0x4c4611f3bd033179!2sCho+Dang+Tofu+Restaurant!8m2!3d34.002587!4d-117.811318!16s%2Fg%2F1vfn6y4s!3m5!1s0x80c32c8db034fbdf:0x4c4611f3bd033179!8m2!3d34.002587!4d-117.811318!16s%2Fg%2F1vfn6y4s?entry=ttu"
               target="_blank"
@@ -43,14 +43,14 @@
                   :src="Location"
                   alt="Cho Dang Tofu Diamond Bar Google Maps link"
                 />
-                <h10 class="mt-2">
+                <div class="h10 mt-2">
                   <img
                     style="height: 15px"
                     :src="GoogleMaps"
                     alt="Google Maps"
                   />
                   Click here to see on Google Maps
-                </h10>
+                </div>
               </div>
             </a>
           </div>
