@@ -102,7 +102,7 @@ export default {
   }
   .text-block {
     max-width: 20rem;
-    background-color: rgba(51, 51, 51, 0.95);
+    background-color: rgb(18 22 24 / 91%);
     color: #fff;
     margin-top: 3.125rem;
   }

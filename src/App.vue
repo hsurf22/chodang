@@ -65,6 +65,13 @@ ul {
   color: #666;
 }
 
+.mt-n8 {
+  margin-top: -4.5rem;
+}
+.mt-n10 {
+  margin-top: -6.25rem;
+}
+
 .mb-6 {
   margin-bottom: 3.5rem !important;
 }

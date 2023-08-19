@@ -1,13 +1,16 @@
 <template>
   <div class="menu py-9" v-if="menu">
     <b-container>
+      <div class="text-center mb-5">
+        <img width="200" :src="pattern1" alt="Korean Pattern" />
+      </div>
       <h2 class="menu-title text-center font-menu text-uppercase mb-8">
         {{ menu.title }}
       </h2>
       <b-row
         v-for="(sub_menu, subMenuKey) in menu.sub_menus"
         :key="subMenuKey"
-        class="pb-6"
+        class="pb-9"
       >
         <div class="text-center sub-menu-title font-menu text-uppercase mb-5">
           {{ sub_menu.sub_menu_title }}
@@ -37,12 +40,17 @@
           </div>
         </b-col>
       </b-row>
+      <div class="text-center mt-n8">
+        <img width="200" :src="pattern2" alt="Korean Pattern" />
+      </div>
     </b-container>
   </div>
 </template>
 
 <script>
 import axios from "axios";
+import pattern1 from "@/assets/img/patterns/korean-traditional-pattern-1.png";
+import pattern2 from "@/assets/img/patterns/korean-traditional-pattern-2.png";
 
 export default {
   name: "PartMenu",
@@ -52,6 +60,8 @@ export default {
   data: () => {
     return {
       menu: null,
+      pattern1: pattern1,
+      pattern2: pattern2,
     };
   },
   methods: {
