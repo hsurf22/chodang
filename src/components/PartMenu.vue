@@ -22,16 +22,18 @@
             <img :src="item.img" :alt="item.item_title" />
           </div>
           <div>
-            <div class="menu-item-title font-menu-small text-capitalize mb-2">
+            <div class="menu-item-title font-menu-small text-capitalize">
               {{ item.item_title }}
             </div>
-            <div class="menu-item-subtitle font-menu-small mb-2">
+            <div class="menu-item-subtitle font-menu-small">
               {{ item.item_sub_title }}
             </div>
-            <div class="menu-item-description font-menu-small mb-3">
+            <div class="menu-item-description font-menu-small mt-2">
               {{ item.item_description }}
             </div>
-            <div class="menu-item-price font-menu-small">${{ item.price }}</div>
+            <div class="menu-item-price font-menu-small mt-3">
+              ${{ item.price }}
+            </div>
           </div>
         </b-col>
       </b-row>

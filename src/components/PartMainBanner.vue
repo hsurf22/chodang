@@ -88,7 +88,6 @@ export default {
   position: relative;
   width: 100%;
   height: auto;
-  background-color: black;
   > img {
     width: 100%;
     height: auto;
@@ -103,7 +102,7 @@ export default {
   }
   .text-block {
     max-width: 20rem;
-    background-color: #333;
+    background-color: rgba(51, 51, 51, 0.95);
     color: #fff;
     margin-top: 3.125rem;
   }
