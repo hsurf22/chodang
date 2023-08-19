@@ -25,15 +25,15 @@ ul {
 
 .h8 {
   display: block;
-  font-size: 15px;
+  font-size: 0.938rem;
 }
 .h9 {
   display: block;
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 .h10 {
   display: block;
-  font-size: 11px;
+  font-size: 0.688rem;
 }
 
 .font-weight-100 {
@@ -71,17 +71,32 @@ ul {
 .mb-7 {
   margin-bottom: 4rem !important;
 }
+.mb-8 {
+  margin-bottom: 4.5rem !important;
+}
 .mb-n1 {
   margin-bottom: -0.25rem !important;
 }
 
+.pb-6 {
+  padding-bottom: 3rem;
+}
+.pb-7 {
+  padding-bottom: 3.5rem;
+}
+.pb-9 {
+  padding-bottom: 5.625rem;
+}
+.pb-10 {
+  padding-bottom: 6.25rem;
+}
 .py-9 {
-  padding-top: 90px;
-  padding-bottom: 90px;
+  padding-top: 5.625rem;
+  padding-bottom: 5.625rem;
 }
 .py-10 {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 6.25rem;
+  padding-bottom: 6.25rem;
 }
 
 .font-menu {

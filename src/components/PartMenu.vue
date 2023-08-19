@@ -1,10 +1,14 @@
 <template>
   <div class="menu py-9" v-if="menu">
     <b-container>
-      <h2 class="menu-title text-center font-menu text-uppercase mb-7">
+      <h2 class="menu-title text-center font-menu text-uppercase mb-8">
         {{ menu.title }}
       </h2>
-      <b-row v-for="(sub_menu, subMenuKey) in menu.sub_menus" :key="subMenuKey">
+      <b-row
+        v-for="(sub_menu, subMenuKey) in menu.sub_menus"
+        :key="subMenuKey"
+        class="pb-6"
+      >
         <div class="text-center sub-menu-title font-menu text-uppercase mb-5">
           {{ sub_menu.sub_menu_title }}
         </div>
@@ -12,7 +16,7 @@
           v-for="(item, itemKey) in sub_menu.sub_menu_items"
           :key="itemKey"
           cols="3"
-          class="menu-item text-center"
+          class="menu-item text-center pb-5"
         >
           <div class="menu-item-image mb-4">
             <img :src="item.img" :alt="item.item_title" />
@@ -91,12 +95,11 @@ export default {
     font-weight: 400;
   }
   .menu-item-image {
-    padding: 0 60px;
+    padding: 0 3.75rem;
     > img {
-      //border: 1px solid #717171;
       border-radius: 50%;
       width: 100%;
-      box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5);
+      box-shadow: 0.25rem 0.25rem 0.375rem rgba(0, 0, 0, 0.5);
     }
   }
 }

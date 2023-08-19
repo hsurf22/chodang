@@ -7,7 +7,7 @@
           <div class="text-block p-4">
             <h3
               class="text-center text-uppercase font-weight-800"
-              style="margin-bottom: 5px"
+              style="margin-bottom: 0.313"
             >
               Location information
             </h3>
@@ -45,12 +45,12 @@
                 />
                 <div class="h10 mt-2">
                   <img
-                    style="height: 15px"
+                    style="height: 0.938rem"
                     :src="GoogleMaps"
                     alt="Google Maps"
                   />
                   Click here to see the location<br />
-                  on Google Maps
+                  on Google Maps®
                 </div>
               </div>
             </a>
@@ -102,23 +102,23 @@ export default {
     height: 100%;
   }
   .text-block {
-    max-width: 320px;
+    max-width: 20rem;
     background-color: #333;
     color: #fff;
-    margin-top: 50px;
+    margin-top: 3.125rem;
   }
 }
 .google-maps-link {
   .google-maps {
     border-radius: 50%;
-    height: 100px;
-    width: 100px;
+    height: 6.25rem;
+    width: 6.25rem;
     transition: all 0.2s ease;
   }
 
   &:hover {
     .google-maps {
-      filter: drop-shadow(0px 0px 10px rgba(255, 255, 255, 0.5));
+      filter: drop-shadow(0 0 0.625rem rgba(255, 255, 255, 0.5));
     }
   }
 }

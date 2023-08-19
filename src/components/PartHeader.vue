@@ -50,12 +50,12 @@ export default {
 
 <style scoped lang="scss">
 .store-location {
-  background-color: #333333;
+  background-color: rgba(51, 51, 51, 0.95);
   ul {
-    padding-left: 175px;
+    padding-left: 10.938rem;
     margin-bottom: 0;
     li {
-      padding: 3px 17px;
+      padding: 0.188rem 1.063rem;
       font-weight: 800;
       font-size: 0.68rem;
       text-transform: uppercase;
@@ -70,22 +70,22 @@ export default {
   background-color: #df4636;
 }
 .main-menu {
-  padding-left: 150px;
+  padding-left: 9.375rem;
   .main-logo {
     position: relative;
     img {
       filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.3));
       position: absolute;
-      top: -13px;
-      left: -150px;
-      height: 70px;
+      top: -0.813rem;
+      left: -9.375rem;
+      height: 4.375rem;
     }
   }
   ul {
     margin: 0;
     padding: 0;
     li {
-      padding: 23px 20px;
+      padding: 1.438rem 1.25rem;
       font-weight: 800;
       font-size: 1rem;
       color: white;
