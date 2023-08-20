@@ -20,11 +20,15 @@
           </div>
 
           <ul class="d-flex justify-content-start">
-            <li>Menu</li>
-            <li>Locations</li>
-            <li>About us</li>
-            <li>FAQ</li>
-            <li>Contact us</li>
+            <li class="clickable" @click="updateRoute('home')">Menu</li>
+            <li class="clickable" @click="updateRoute('locations')">
+              Locations
+            </li>
+            <li class="clickable" @click="updateRoute('about')">About us</li>
+            <li class="clickable" @click="updateRoute('faq')">FAQ</li>
+            <li class="clickable" @click="updateRoute('contact')">
+              Contact us
+            </li>
           </ul>
         </div>
       </div>
@@ -45,10 +49,18 @@ export default {
       Logo: LogoImg,
     };
   },
+  methods: {
+    updateRoute(path) {
+      this.$router.push({ name: path }).catch(() => {});
+    },
+  },
 };
 </script>
 
 <style scoped lang="scss">
+.header {
+  border-bottom: 1px solid #565656;
+}
 .store-location {
   background-color: rgba(51, 51, 51, 0.95);
   ul {

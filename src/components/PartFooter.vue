@@ -68,7 +68,7 @@ export default {
   --content-opacity: 0.8;
   --text-color: white;
 
-  background-color: #2b2b2b;
+  background-color: #4d4d4d;
   background-image: url(@/assets/img/backgrounds/bg3.svg);
   background-size: 0.5rem;
   padding: 5rem 0;

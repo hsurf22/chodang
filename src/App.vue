@@ -143,4 +143,9 @@ ul {
     display: none;
   }
 }
+
+.clickable {
+  cursor: pointer;
+  user-select: none;
+}
 </style>
