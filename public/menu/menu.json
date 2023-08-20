@@ -3,34 +3,253 @@
     "title": "Discover Our Menu",
     "sub_menus": [
       {
-        "sub_menu_title": "Anju",
+        "sub_menu_title": "Cho Dang's Signature",
+        "sub_menu_title_kor": "시그니처 메뉴",
         "sub_menu_items": [
           {
-            "item_title": "3 flavors Korean pancake",
-            "item_sub_title": "(Scallion, Kimchi, Potato curry)",
-            "item_description": "Soy sauce, Barley tea",
-            "price": "15.99",
+            "item_title": "Custom Tofu",
+            "item_title_kor": "골라먹는 순두부",
+            "item_sub_title": "Create your own soft tofu pot!",
+            "item_description": "",
+            "price": "$ depends on the toppings",
+            "img": "/menu/images/tofu/cd-tofu.jpg"
+          },
+          {
+            "item_title": "CD Tofu",
+            "item_title_kor": "초당 순두부",
+            "item_sub_title": "",
+            "item_description": "Red Soup, Soft Tofu, Shrimp, Clam, Beef, Egg, Green onion",
+            "price": "$15.00(M) • $16.00(L)",
+            "img": "/menu/images/tofu/cd-tofu.jpg"
+          },
+          {
+            "item_title": "CA Tofu",
+            "item_title_kor": "CA 순두부",
+            "item_sub_title": "",
+            "item_description": "Mara soup, Soft tofu, Beef of pork, Assorted mushroom, Vermicelli, Bok choy, Cilantro",
+            "price": "$15.00(M) • $16.00(L)",
+            "img": "/menu/images/tofu/cd-tofu.jpg"
+          },
+          {
+            "item_title": "Veggie Tofu",
+            "item_title_kor": " 야채 순두부",
+            "item_sub_title": "",
+            "item_description": "Red soup, Soft tofu, Assorted mushroom, Chewy noodle, Bean sprout, Broccoli, Bok Choy, Zucchini, Green onion",
+            "price": "$15.00(M) • $16.00(L)",
+            "img": "/menu/images/tofu/cd-tofu.jpg"
+          }
+        ]
+      },
+      {
+        "sub_menu_title": "Appitizer",
+        "sub_menu_title_kor": "에피타이저",
+        "sub_menu_items": [
+          {
+            "item_title": "Tofu Salad",
+            "item_title_kor": "두부 샐러드",
+            "item_sub_title": "",
+            "item_description": "Veggie mix, Fried tofu",
+            "price": "$7.99",
             "img": "/menu/images/anju/3-flavors-korean-pancake.jpg"
           },
           {
-            "item_title": "Cheese Potato Korean pancake",
+            "item_title": "Soft Tofu & Sauce",
+            "item_title_kor": "순두부와 소스",
             "item_sub_title": "",
-            "item_description": "Soy sauce, Barley tea",
-            "price": "16.99",
+            "item_description": "Soft tofu, sauce",
+            "price": "$6.99",
+            "img": "/menu/images/anju/cheese_potato_korean_pancake.jpg"
+          },
+          {
+            "item_title": "Fried Calamari",
+            "item_title_kor": "오징어 튀김",
+            "item_sub_title": "",
+            "item_description": "Fried calamari, Veggie mix, Ponze Sauce",
+            "price": "$8.99",
+            "img": "/menu/images/anju/tofu-cutlet.jpg"
+          },
+          {
+            "item_title": "Fried Zucchini",
+            "item_title_kor": "애호박 튀김",
+            "item_sub_title": "",
+            "item_description": "Fried zucchini, Fried glass noodle, Ponze Sauce",
+            "price": "$6.99",
+            "img": "/menu/images/anju/grilled-beef-galbi.jpg"
+          }
+        ]
+      },
+      {
+        "sub_menu_title": "Korean Style Noodle",
+        "sub_menu_title_kor": "면류",
+        "sub_menu_items": [
+          {
+            "item_title": "Buckwheat Noodle",
+            "item_title_kor": "물냉면, 비빔냉면",
+            "item_sub_title": "(Cold or Spicy)",
+            "item_description": "Buckwheat noodle, Pickled radish, Seasoned cucumber, Barley tea",
+            "price": "$16.99",
+            "img": "/menu/images/anju/3-flavors-korean-pancake.jpg"
+          },
+          {
+            "item_title": "Soft Tofu Ramyeon",
+            "item_title_kor": "순두부 라면",
+            "item_sub_title": "",
+            "item_description": "Ramyeon with Fried tofu, Egg, Barley tea",
+            "price": "$9.99",
+            "img": "/menu/images/anju/cheese_potato_korean_pancake.jpg"
+          },
+          {
+            "item_title": "Cream Carbonara Buldak",
+            "item_title_kor": "크림까르보 불닭 라면",
+            "item_sub_title": "",
+            "item_description": "Cream carbo buldak, Fried egg, Fried tofo, Barley tea",
+            "price": "$9.99",
+            "img": "/menu/images/anju/tofu-cutlet.jpg"
+          },
+          {
+            "item_title": "Korean Japchae",
+            "item_title_kor": "잡채",
+            "item_sub_title": "",
+            "item_description": "Japchae, Fried tofy, Barley tea",
+            "price": "$6.99",
+            "img": "/menu/images/anju/grilled-beef-galbi.jpg"
+          }
+        ]
+      },
+      {
+        "sub_menu_title": "Side",
+        "sub_menu_title_kor": "사이드",
+        "sub_menu_items": [
+          {
+            "item_title": "Egg Butter Rice & Seasame Soy Sauce",
+            "item_title_kor": "간장 계란 버터 밥",
+            "item_sub_title": "",
+            "item_description": "Rice, Butter, Fried egg, Furikake, Seasame soy sauce, Barley tea",
+            "price": "$5.00",
+            "img": "/menu/images/anju/3-flavors-korean-pancake.jpg"
+          },
+          {
+            "item_title": "Rice",
+            "item_title_kor": "밥",
+            "item_sub_title": "",
+            "item_description": "A bowl of rice",
+            "price": "$1.50",
+            "img": "/menu/images/anju/cheese_potato_korean_pancake.jpg"
+          },
+          {
+            "item_title": "Banchan",
+            "item_title_kor": "반찬",
+            "item_sub_title": "(4 kinds)",
+            "item_description": "Fried fish cake, Cucumber pickles, Kimchi and Seaweed",
+            "price": "$1.50",
+            "img": "/menu/images/anju/tofu-cutlet.jpg"
+          },
+          {
+            "item_title": "Grilled Fish",
+            "item_title_kor": "조기구이",
+            "item_sub_title": "(Small size)",
+            "item_description": "Fried yellow corvina small size",
+            "price": "$2.00",
+            "img": "/menu/images/anju/grilled-beef-galbi.jpg"
+          }
+        ]
+      },
+      {
+        "sub_menu_title": "Drinks",
+        "sub_menu_title_kor": "음료",
+        "sub_menu_items": [
+          {
+            "item_title": "Flavored Soju",
+            "item_title_kor": "소주",
+            "item_sub_title": "",
+            "item_description": "Flavored Soju (Strawberry, Tropical, Peach, Cherry, Mango, Watermelon, Lychee, Apple)",
+            "price": "$12.99",
+            "img": "/menu/images/anju/3-flavors-korean-pancake.jpg"
+          },
+          {
+            "item_title": "Beer",
+            "item_title_kor": "맥주",
+            "item_sub_title": "",
+            "item_description": "Cass, Hite, OB Lager, Kloud, Terra",
+            "price": "$8.99",
+            "img": "/menu/images/anju/cheese_potato_korean_pancake.jpg"
+          },
+          {
+            "item_title": "Makgeoli",
+            "item_title_kor": "막걸리",
+            "item_sub_title": "",
+            "item_description": "Original Makgeoli or Flavored Makgeoli (Chestnut, Banana, Peach, Grape, Citron)",
+            "price": "$13.99",
+            "img": "/menu/images/anju/tofu-cutlet.jpg"
+          },
+          {
+            "item_title": "Makgeoli with Honey Comb",
+            "item_title_kor": "벌꿀 칩 막걸리 1잔",
+            "item_sub_title": "(1 glass)",
+            "item_description": "Original Makgeoli, a piece of honey comb",
+            "price": "$5.00",
+            "img": "/menu/images/anju/grilled-beef-galbi.jpg"
+          }
+        ]
+      },
+      {
+        "sub_menu_title": "Anju",
+        "sub_menu_title_kor": "안주",
+        "sub_menu_items": [
+          {
+            "item_title": "Tricolor Jeon",
+            "item_title_kor": "삼색 전",
+            "item_sub_title": "",
+            "item_description": "3 flavors Korean pancake (Scallion, Kimchi, Potato curry), Soy sauce, Barley tea",
+            "price": "$15.99",
+            "img": "/menu/images/anju/3-flavors-korean-pancake.jpg"
+          },
+          {
+            "item_title": "Cheese Potato Jeon",
+            "item_title_kor": "치즈 감자 전",
+            "item_sub_title": "",
+            "item_description": "Cheese Potato Korean pancake, Soy sauce, Barley tea",
+            "price": "$16.99",
             "img": "/menu/images/anju/cheese_potato_korean_pancake.jpg"
           },
           {
             "item_title": "Tofu cutlet",
+            "item_title_kor": "두부 커틀렛",
             "item_sub_title": "",
-            "item_description": "Veggie mix, Corn Salad, Vaidamic sauce, Ranch sauce, Barley tea",
-            "price": "14.99",
+            "item_description": "Tofu cutlet, Veggie mix, Corn Salad, Vaidamic sauce, Ranch sauce, Barley tea",
+            "price": "$14.99",
             "img": "/menu/images/anju/tofu-cutlet.jpg"
           },
           {
             "item_title": "Grilled beef galbi",
+            "item_title_kor": "LA 갈비",
             "item_sub_title": "",
-            "item_description": "Barley tea",
-            "price": "22.99",
+            "item_description": "Grilled beef galbi, Barley tea",
+            "price": "$22.99",
+            "img": "/menu/images/anju/grilled-beef-galbi.jpg"
+          },
+          {
+            "item_title": "Beef bulgogi BBQ",
+            "item_title_kor": "소 불고기 바베큐",
+            "item_sub_title": "",
+            "item_description": "Beef bulgogi BBQ, Barley tea",
+            "price": "$20.99",
+            "img": "/menu/images/anju/beef-bulgogi-bbq.jpg"
+          },
+          {
+            "item_title": "Spicy pork BBQ",
+            "item_title_kor": "매운 돼지 바베큐",
+            "item_sub_title": "",
+            "item_description": "Spicy pork BBQ, Barley tea",
+            "price": "$20.99",
+            "img": "/menu/images/anju/spicy-pork-bbq.jpg"
+          },
+          {
+            "item_title": "Fried Tofu & Stir fried Kimchi",
+            "item_title_kor": "두부김치",
+            "item_sub_title": "",
+            "item_description": "Fried tofu, Stir fried kimchi, Barley tea",
+            "price": "$16.99",
             "img": "/menu/images/anju/grilled-beef-galbi.jpg"
           }
         ]
