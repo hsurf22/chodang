@@ -132,6 +132,11 @@ ul {
   font-weight: 400;
   letter-spacing: 0.1rem;
 }
+.font-footer {
+  font-family: "PT Sans Narrow", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.08rem;
+}
 
 .hide-the-last {
   &:last-child .the-last {

@@ -4,7 +4,7 @@
 
     <div class="text-center pt-11 mb-8">
       <img
-        style="max-width: 250px"
+        style="max-width: 15rem"
         :src="pattern"
         alt="Korean signature pattern"
       />
@@ -144,7 +144,7 @@ export default {
   opacity: 1;
   height: 7rem;
   background-image: url(@/assets/img/patterns/edge-pattern.svg);
-  background-position: center -0.8rem;
+  background-position: center -1.8rem;
   background-repeat: repeat-x;
 
   &.bottom {
@@ -154,6 +154,8 @@ export default {
 
 .menu {
   background-color: #121618;
+  background-image: url(@/assets/img/backgrounds/bg2.svg);
+  background-size: 3rem;
 }
 .menu-title {
   color: white;
