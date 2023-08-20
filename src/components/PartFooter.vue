@@ -69,8 +69,8 @@ export default {
   --text-color: white;
 
   background-color: #2b2b2b;
-  background-image: url(@/assets/img/backgrounds/bg1.svg);
-  background-size: 11rem;
+  background-image: url(@/assets/img/backgrounds/bg3.svg);
+  background-size: 0.5rem;
   padding: 5rem 0;
 }
 .footer-content {
