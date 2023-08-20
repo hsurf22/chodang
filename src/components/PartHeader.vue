@@ -33,7 +33,7 @@
 </template>
 
 <script>
-import LogoImg from "@/assets/img/chodang-logo-white.png";
+import LogoImg from "@/assets/img/logo/chodang-logo-white.png";
 
 export default {
   name: "PartHeader",

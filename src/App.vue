@@ -81,10 +81,26 @@ ul {
 .mb-8 {
   margin-bottom: 4.5rem !important;
 }
+.mb-9 {
+  margin-bottom: 5.625rem !important;
+}
+.mb-10 {
+  margin-bottom: 6.25rem !important;
+}
+
 .mb-n1 {
   margin-bottom: -0.25rem !important;
 }
 
+.pt-9 {
+  padding-top: 5.625rem;
+}
+.pt-10 {
+  padding-top: 6.25rem;
+}
+.pt-11 {
+  padding-top: 7.25rem;
+}
 .pb-6 {
   padding-bottom: 3rem;
 }
@@ -115,5 +131,11 @@ ul {
   font-family: "PT Sans Narrow", sans-serif;
   font-weight: 400;
   letter-spacing: 0.1rem;
+}
+
+.hide-the-last {
+  &:last-child .the-last {
+    display: none;
+  }
 }
 </style>

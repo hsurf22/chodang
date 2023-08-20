@@ -1,56 +1,118 @@
 <template>
-  <div class="menu py-9" v-if="menu">
+  <div class="menu" v-if="menu">
+    <div class="page-edge"></div>
+
+    <div class="text-center pt-11 mb-8">
+      <img
+        style="max-width: 250px"
+        :src="pattern"
+        alt="Korean signature pattern"
+      />
+    </div>
+
     <b-container>
-      <div class="text-center mb-5">
-        <img width="200" :src="pattern1" alt="Korean Pattern" />
-      </div>
+      <!-- ================================================ -->
+      <!-- Main title -->
+      <!-- ================================================ -->
       <h2 class="menu-title text-center font-menu text-uppercase mb-8">
         {{ menu.title }}
       </h2>
+
+      <!-- ***************************************************************************************************************************** -->
+      <!-- Sub Menu start -->
+      <!-- ***************************************************************************************************************************** -->
       <b-row
         v-for="(sub_menu, subMenuKey) in menu.sub_menus"
         :key="subMenuKey"
-        class="pb-9"
+        class="pb-9 hide-the-last"
       >
+        <!-- ================================================ -->
+        <!-- Sub menu title -->
+        <!-- ================================================ -->
         <div class="text-center sub-menu-title font-menu text-uppercase mb-5">
           {{ sub_menu.sub_menu_title }}
         </div>
+
+        <!-- ************************************************************************* -->
+        <!-- Item Block start -->
+        <!-- ************************************************************************* -->
         <b-col
           v-for="(item, itemKey) in sub_menu.sub_menu_items"
           :key="itemKey"
           cols="3"
-          class="menu-item text-center pb-5"
+          class="menu-item text-center pb-9"
         >
+          <!-- ================================================ -->
+          <!-- Item image -->
+          <!-- ================================================ -->
           <div class="menu-item-image mb-4">
             <img :src="item.img" :alt="item.item_title" />
           </div>
+
+          <!-- ================================================ -->
+          <!-- TEXT Information block -->
+          <!-- ================================================ -->
           <div>
+            <!-- ================================================ -->
+            <!-- Item title -->
+            <!-- ================================================ -->
             <div class="menu-item-title font-menu-small text-capitalize">
               {{ item.item_title }}
             </div>
+
+            <!-- ================================================ -->
+            <!-- Item subtitle -->
+            <!-- ================================================ -->
             <div class="menu-item-subtitle font-menu-small">
               {{ item.item_sub_title }}
             </div>
+
+            <!-- ================================================ -->
+            <!-- Item description -->
+            <!-- ================================================ -->
             <div class="menu-item-description font-menu-small mt-2">
               {{ item.item_description }}
             </div>
-            <div class="menu-item-price font-menu-small mt-3">
-              ${{ item.price }}
+
+            <!-- ================================================ -->
+            <!-- Item price -->
+            <!-- ================================================ -->
+            <div
+              class="menu-item-price font-menu-small mt-4"
+              style="line-height: 2rem"
+            >
+              {{ item.price }}
             </div>
           </div>
         </b-col>
+        <!-- ************************************************************************* -->
+        <!-- Item Block end -->
+        <!-- ************************************************************************* -->
+
+        <!-- ================================================ -->
+        <!-- Sub menu divider -->
+        <!-- ================================================ -->
+        <div class="text-center the-last">
+          <img
+            style="max-width: 50%; filter: grayscale(1) opacity(25%)"
+            :src="divider"
+            alt="Divider"
+          />
+        </div>
       </b-row>
-      <div class="text-center mt-n8">
-        <img width="200" :src="pattern2" alt="Korean Pattern" />
-      </div>
+      <!-- ***************************************************************************************************************************** -->
+      <!-- Sub Menu end -->
+      <!-- ***************************************************************************************************************************** -->
     </b-container>
+
+    <div class="page-edge bottom"></div>
   </div>
 </template>
 
 <script>
 import axios from "axios";
-import pattern1 from "@/assets/img/patterns/korean-traditional-pattern-1.png";
-import pattern2 from "@/assets/img/patterns/korean-traditional-pattern-2.png";
+import divider from "@/assets/img/patterns/divider.svg";
+import pattern from "@/assets/img/patterns/korean-traditional-pattern.svg";
 
 export default {
   name: "PartMenu",
@@ -60,8 +122,8 @@ export default {
   data: () => {
     return {
       menu: null,
-      pattern1: pattern1,
-      pattern2: pattern2,
+      divider: divider,
+      pattern: pattern,
     };
   },
   methods: {
@@ -78,6 +140,18 @@ export default {
 </script>
 
 <style scoped lang="scss">
+.page-edge {
+  opacity: 1;
+  height: 7rem;
+  background-image: url(@/assets/img/patterns/edge-pattern.svg);
+  background-position: center -0.8rem;
+  background-repeat: repeat-x;
+
+  &.bottom {
+    transform: rotate(180deg);
+  }
+}
+
 .menu {
   background-color: #121618;
 }
