@@ -148,9 +148,13 @@ ul {
 .mb-10 {
   margin-bottom: 6.25rem !important;
 }
-
 .mb-n1 {
   margin-bottom: -0.25rem !important;
+}
+
+.my-7 {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
 }
 
 .pt-9 {
@@ -166,13 +170,22 @@ ul {
   padding-bottom: 3rem;
 }
 .pb-7 {
-  padding-bottom: 3.5rem;
+  padding-bottom: 4rem;
 }
 .pb-9 {
   padding-bottom: 5.625rem;
 }
 .pb-10 {
   padding-bottom: 6.25rem;
+}
+
+.py-6 {
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
+}
+.py-7 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 .py-9 {
   padding-top: 5.625rem;
