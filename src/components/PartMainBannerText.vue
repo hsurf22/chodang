@@ -1,6 +1,13 @@
 <template>
   <div class="main-banner-text">
     <div class="p-4">
+      <div class="text-center pt-2 pb-3">
+        <img
+          class="food-img"
+          src="/data/images/menu/tofu/cd-tofu.jpg"
+          alt="Tofu"
+        />
+      </div>
       <h3
         class="text-center text-uppercase font-weight-800"
         style="margin-bottom: 0rem"
@@ -10,6 +17,7 @@
       <div class="h5 font-hand-writing-3 text-center mb-4">
         Our most popular Tofu
       </div>
+
       <div
         class="h8 text-center font-weight-800 text-gray-800 text-uppercase mb-2"
       >
@@ -67,5 +75,11 @@ export default {
 }
 .menu-price {
   background-color: black;
+}
+.food-img {
+  //border: 1px solid #ffffff;
+  border-radius: 50%;
+  max-width: 11rem;
+  box-shadow: 0.1rem 0.1rem 0.25rem rgb(0 0 0 / 25%);
 }
 </style>

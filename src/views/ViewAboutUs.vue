@@ -20,7 +20,7 @@
         California. We are committed to providing our customers with delicious
         and authentic Korean food at a fair price. <br /><br />
 
-        <img :src="kfood2" alt="K-Food" style="max-width: 18rem" />
+        <img :src="kfood2" alt="K-Food" style="max-width: 12rem" />
         <br /><br />
 
         We have a wide variety of dishes to choose from, including tofu soups,
@@ -31,14 +31,14 @@
         want everyone to be able to enjoy our food, no matter their spice
         tolerance.<br /><br />
 
-        <img :src="kfood1" alt="K-Food" style="max-width: 35rem" />
+        <img :src="kfood1" alt="K-Food" style="max-width: 25rem" />
         <br /><br />
 
         If this is your <span>first time visiting</span> our restaurant, please
         let us know. We would be happy to give you more information about our
         menu and <span>help you choose the perfect dish.</span><br /><br />
 
-        <img :src="kfood3" alt="K-Food" style="max-width: 24rem" />
+        <img :src="kfood3" alt="K-Food" style="max-width: 16rem" />
         <br /><br />
 
         Sharing your experiences about our food on social media helps us a lot!

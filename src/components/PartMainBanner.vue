@@ -4,7 +4,7 @@
       class="slide-item"
       style="
         background-image: url(/data/images/banner/banner-1.jpg);
-        padding: 13rem 0;
+        padding: 7rem 0;
       "
     >
       <b-container>

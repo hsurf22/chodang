@@ -178,7 +178,7 @@ export default {
       color: white;
       text-transform: uppercase;
       &.active {
-        //background-color: rgba(255, 255, 25, 0.22);
+        background-color: rgba(255, 255, 25, 0.22);
       }
     }
   }
