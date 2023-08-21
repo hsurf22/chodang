@@ -2,8 +2,8 @@
   <div class="main-banner">
     <div class="banner-item banner1">
       <img :src="Banner1" alt="Tofu set 1" />
-      <div class="banner-text">
-        <b-container style="height: 100%">
+      <div class="banner-text my-5">
+        <b-container>
           <div class="text-block p-4">
             <h3
               class="text-center text-uppercase font-weight-800"
@@ -104,7 +104,6 @@ export default {
     max-width: 20rem;
     background-color: rgb(18 22 24 / 91%);
     color: #fff;
-    margin-top: 3.125rem;
   }
 }
 .google-maps-link {

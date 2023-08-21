@@ -15,7 +15,10 @@
       <div class="container">
         <div class="main-menu">
           <!-- Logo image -->
-          <div class="main-logo">
+          <div
+            class="main-logo clickable"
+            @click="$router.push({ name: 'home' }).catch(() => {})"
+          >
             <img :src="Logo" alt="Main Logo" />
           </div>
 
