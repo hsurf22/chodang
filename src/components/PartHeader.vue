@@ -3,10 +3,36 @@
     <!-- Store locations -->
     <div class="store-location">
       <ul class="container d-flex justify-content-start">
-        <li class="active">Diamond Bar</li>
-        <li>Cerritos</li>
-        <li>Montrose</li>
-        <li>Cypress</li>
+        <li
+          @click="updateLocation('diamond-bar')"
+          class="clickable"
+          :class="currentLocation == 'diamond-bar' ? 'active' : ''"
+        >
+          California
+        </li>
+        <!--
+        <li
+          @click="updateLocation('cerritos')"
+          class="clickable"
+          :class="currentLocation == 'cerritos' ? 'active' : ''"
+        >
+          Cerritos
+        </li>
+        <li
+          @click="updateLocation('montrose')"
+          class="clickable"
+          :class="currentLocation == 'montrose' ? 'active' : ''"
+        >
+          Montrose
+        </li>
+        <li
+          @click="updateLocation('cypress')"
+          class="clickable"
+          :class="currentLocation == 'cypress' ? 'active' : ''"
+        >
+          Cypress
+        </li>
+        -->
       </ul>
     </div>
 
@@ -79,14 +105,27 @@ export default {
       currentPageName: "",
     };
   },
+  computed: {
+    currentLocation() {
+      return this.$store.state.currentLocation;
+    },
+  },
   methods: {
     updateRoute(path) {
       this.currentPageName = path;
       this.$router.push({ name: path }).catch(() => {});
     },
+    updateLocation(locationName) {
+      this.$store.commit("setCurrentLocation", locationName);
+    },
   },
   mounted() {
     this.currentPageName = this.$route.name;
+
+    // Set initial value for location
+    if (!this.currentLocation) {
+      this.$store.commit("setCurrentLocation", "diamond-bar");
+    }
   },
 };
 </script>
@@ -98,7 +137,7 @@ export default {
 .store-location {
   background-color: rgba(51, 51, 51, 0.95);
   ul {
-    padding-left: 10.938rem;
+    padding-left: 11.2rem;
     margin-bottom: 0;
     li {
       padding: 0.188rem 1.063rem;
@@ -106,6 +145,8 @@ export default {
       font-size: 0.68rem;
       text-transform: uppercase;
       color: white;
+      //background-color: #df4636;
+
       &.active {
         background-color: #df4636;
       }
@@ -137,7 +178,7 @@ export default {
       color: white;
       text-transform: uppercase;
       &.active {
-        background-color: rgba(255, 255, 25, 0.22);
+        //background-color: rgba(255, 255, 25, 0.22);
       }
     }
   }

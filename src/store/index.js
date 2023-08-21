@@ -4,9 +4,15 @@ import Vuex from "vuex";
 Vue.use(Vuex);
 
 export default new Vuex.Store({
-  state: {},
+  state: {
+    currentLocation: "diamond-bar",
+  },
   getters: {},
-  mutations: {},
+  mutations: {
+    setCurrentLocation(state, locationName) {
+      state.currentLocation = locationName;
+    },
+  },
   actions: {},
   modules: {},
 });

@@ -33,6 +33,32 @@ export default {
 @import url("https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+.font-menu {
+  font-family: "PT Sans Narrow", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.4rem;
+}
+.font-menu-small {
+  font-family: "PT Sans Narrow", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.1rem;
+}
+.font-footer {
+  font-family: "PT Sans Narrow", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.08rem;
+}
+.font-hand-writing-1 {
+  font-family: "Permanent Marker", cursive;
+}
+.font-hand-writing-2 {
+  font-family: "Courgette", cursive;
+}
+.font-hand-writing-3 {
+  font-family: "Pacifico", cursive;
+}
 
 #app {
   background-color: white;
@@ -95,28 +121,6 @@ ul {
 }
 .font-weight-800 {
   font-weight: 800 !important;
-}
-
-.font-menu {
-  font-family: "PT Sans Narrow", sans-serif;
-  font-weight: 400;
-  letter-spacing: 0.4rem;
-}
-.font-menu-small {
-  font-family: "PT Sans Narrow", sans-serif;
-  font-weight: 400;
-  letter-spacing: 0.1rem;
-}
-.font-footer {
-  font-family: "PT Sans Narrow", sans-serif;
-  font-weight: 400;
-  letter-spacing: 0.08rem;
-}
-.font-hand-writing-1 {
-  font-family: "Permanent Marker", cursive;
-}
-.font-hand-writing-2 {
-  font-family: "Courgette", cursive;
 }
 
 .text-gray-800 {
