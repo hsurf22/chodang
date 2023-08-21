@@ -2,15 +2,10 @@
   <div class="main-banner">
     <div
       class="slide-item"
-      style="background-image: url(/data/images/banner/banner-1.jpg)"
-    >
-      <b-container>
-        <BannerTextBlock />
-      </b-container>
-    </div>
-    <div
-      class="slide-item"
-      style="background-image: url(/data/images/banner/banner-2.jpg)"
+      style="
+        background-image: url(/data/images/banner/banner-1.jpg);
+        padding: 6rem 0;
+      "
     >
       <b-container>
         <BannerTextBlock />

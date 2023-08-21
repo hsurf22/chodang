@@ -1,5 +1,5 @@
 <template>
-  <div class="main-banner-text" style="margin: 6rem 0">
+  <div class="main-banner-text">
     <div class="text-block p-4">
       <h3
         class="text-center text-uppercase font-weight-800"
@@ -72,7 +72,8 @@ export default {
 <style scoped lang="scss">
 .text-block {
   max-width: 20rem;
-  background-color: rgb(18 22 24 / 91%);
+  //background-color: rgb(18 22 24 / 91%);
+  background-color: #333;
   color: #fff;
 }
 .google-maps-link {

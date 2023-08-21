@@ -23,13 +23,39 @@
           </div>
 
           <ul class="d-flex justify-content-start">
-            <li class="clickable" @click="updateRoute('home')">Menu</li>
-            <li class="clickable" @click="updateRoute('locations')">
+            <li
+              :class="currentPageName == 'home' ? 'active' : ''"
+              class="clickable"
+              @click="updateRoute('home')"
+            >
+              Menu
+            </li>
+            <li
+              :class="currentPageName == 'locations' ? 'active' : ''"
+              class="clickable"
+              @click="updateRoute('locations')"
+            >
               Locations
             </li>
-            <li class="clickable" @click="updateRoute('about')">About us</li>
-            <li class="clickable" @click="updateRoute('faq')">FAQ</li>
-            <li class="clickable" @click="updateRoute('contact')">
+            <li
+              :class="currentPageName == 'about' ? 'active' : ''"
+              class="clickable"
+              @click="updateRoute('about')"
+            >
+              About us
+            </li>
+            <li
+              :class="currentPageName == 'faq' ? 'active' : ''"
+              class="clickable"
+              @click="updateRoute('faq')"
+            >
+              FAQ
+            </li>
+            <li
+              :class="currentPageName == 'contact' ? 'active' : ''"
+              class="clickable"
+              @click="updateRoute('contact')"
+            >
               Contact us
             </li>
           </ul>
@@ -50,12 +76,17 @@ export default {
   data: () => {
     return {
       Logo: LogoImg,
+      currentPageName: "",
     };
   },
   methods: {
     updateRoute(path) {
+      this.currentPageName = path;
       this.$router.push({ name: path }).catch(() => {});
     },
+  },
+  mounted() {
+    this.currentPageName = this.$route.name;
   },
 };
 </script>
@@ -105,6 +136,9 @@ export default {
       font-size: 1rem;
       color: white;
       text-transform: uppercase;
+      &.active {
+        background-color: rgba(255, 255, 25, 0.22);
+      }
     }
   }
 }
