@@ -50,13 +50,16 @@ export default {
   font-weight: 400;
   letter-spacing: 0.08rem;
 }
-.font-hand-writing-1 {
+.font-hand-writing-1,
+.font-hand-writing-1 span {
   font-family: "Permanent Marker", cursive;
 }
-.font-hand-writing-2 {
+.font-hand-writing-2,
+.font-hand-writing-2 span {
   font-family: "Courgette", cursive;
 }
-.font-hand-writing-3 {
+.font-hand-writing-3,
+.font-hand-writing-3 span {
   font-family: "Pacifico", cursive;
 }
 
@@ -161,6 +164,12 @@ ul {
   margin-bottom: 4rem;
 }
 
+.pt-7 {
+  padding-top: 4rem;
+}
+.pt-8 {
+  padding-top: 4.5rem;
+}
 .pt-9 {
   padding-top: 5.625rem;
 }

@@ -15,12 +15,12 @@
             <b-icon icon="twitter"></b-icon>
           </div>
         </a>
-        <a href="https://twitter.com" target="_blank">
+        <a href="https://instagram.com" target="_blank">
           <div class="social-icon-box">
             <b-icon icon="instagram"></b-icon>
           </div>
         </a>
-        <a href="https://twitter.com" target="_blank">
+        <a href="https://tiktok.com" target="_blank">
           <div class="social-icon-box">
             <img :src="Tiktok" alt="Tiktok" style="filter: invert(1)" />
           </div>
