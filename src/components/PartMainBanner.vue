@@ -43,7 +43,7 @@
                   :src="Location"
                   alt="Cho Dang Tofu Diamond Bar Google Maps link"
                 />
-                <div class="h10 mt-2">
+                <div class="h11 mt-2">
                   <img
                     style="height: 0.938rem"
                     :src="GoogleMaps"
