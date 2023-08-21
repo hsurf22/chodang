@@ -8,7 +8,7 @@
       <b-row
         v-for="(location, locationKey) in locations"
         :key="locationKey"
-        style="border-top: 7px solid white"
+        style="border-top: 5px solid white"
       >
         <!-- ================================================ -->
         <!-- Location image -->
