@@ -15,7 +15,7 @@
         style="
           width: 100%;
           background-image: url(/data/images/banner/banner-1.jpg);
-          padding: 7rem 0;
+          padding: 10rem 0;
         "
       >
         <b-container>
@@ -53,7 +53,7 @@ export default {
   data: () => {
     return {
       plugins: [
-        new AutoPlay({ duration: 6000, direction: "NEXT", stopOnHover: true }),
+        new AutoPlay({ duration: 6000, direction: "NEXT", stopOnHover: false }),
       ],
     };
   },

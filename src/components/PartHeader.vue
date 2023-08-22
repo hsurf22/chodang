@@ -1,16 +1,17 @@
 <template>
   <div class="header">
-    <!-- Store locations -->
-    <div class="store-location">
-      <ul class="container d-flex justify-content-start">
-        <li
-          @click="updateLocation('diamond-bar')"
-          class="clickable"
-          :class="currentLocation == 'diamond-bar' ? 'active' : ''"
-        >
-          California
-        </li>
-        <!--
+    <div class="header-content">
+      <!-- Store locations -->
+      <div class="store-location">
+        <ul class="container d-flex justify-content-start">
+          <li
+            @click="updateLocation('diamond-bar')"
+            class="clickable"
+            :class="currentLocation == 'diamond-bar' ? 'active' : ''"
+          >
+            California
+          </li>
+          <!--
         <li
           @click="updateLocation('cerritos')"
           class="clickable"
@@ -32,59 +33,59 @@
         >
           Cypress
         </li>
-        -->
-      </ul>
-    </div>
+        --></ul>
+      </div>
 
-    <!-- Menu content -->
-    <div class="menu-content">
-      <div class="container">
-        <div class="main-menu">
-          <!-- Logo image -->
-          <div
-            class="main-logo clickable"
-            @click="$router.push({ name: 'home' }).catch(() => {})"
-          >
-            <img :src="Logo" alt="Main Logo" />
+      <!-- Menu content -->
+      <div class="menu-content">
+        <div class="container">
+          <div class="main-menu">
+            <!-- Logo image -->
+            <div
+              class="main-logo clickable"
+              @click="$router.push({ name: 'home' }).catch(() => {})"
+            >
+              <img :src="Logo" alt="Main Logo" />
+            </div>
+
+            <ul class="d-flex justify-content-start">
+              <li
+                :class="currentPageName == 'home' ? 'active' : ''"
+                class="clickable"
+                @click="updateRoute('home')"
+              >
+                Menu
+              </li>
+              <li
+                :class="currentPageName == 'locations' ? 'active' : ''"
+                class="clickable"
+                @click="updateRoute('locations')"
+              >
+                Locations
+              </li>
+              <li
+                :class="currentPageName == 'about' ? 'active' : ''"
+                class="clickable"
+                @click="updateRoute('about')"
+              >
+                About us
+              </li>
+              <li
+                :class="currentPageName == 'faq' ? 'active' : ''"
+                class="clickable"
+                @click="updateRoute('faq')"
+              >
+                FAQ
+              </li>
+              <li
+                :class="currentPageName == 'contact' ? 'active' : ''"
+                class="clickable"
+                @click="updateRoute('contact')"
+              >
+                Contact us
+              </li>
+            </ul>
           </div>
-
-          <ul class="d-flex justify-content-start">
-            <li
-              :class="currentPageName == 'home' ? 'active' : ''"
-              class="clickable"
-              @click="updateRoute('home')"
-            >
-              Menu
-            </li>
-            <li
-              :class="currentPageName == 'locations' ? 'active' : ''"
-              class="clickable"
-              @click="updateRoute('locations')"
-            >
-              Locations
-            </li>
-            <li
-              :class="currentPageName == 'about' ? 'active' : ''"
-              class="clickable"
-              @click="updateRoute('about')"
-            >
-              About us
-            </li>
-            <li
-              :class="currentPageName == 'faq' ? 'active' : ''"
-              class="clickable"
-              @click="updateRoute('faq')"
-            >
-              FAQ
-            </li>
-            <li
-              :class="currentPageName == 'contact' ? 'active' : ''"
-              class="clickable"
-              @click="updateRoute('contact')"
-            >
-              Contact us
-            </li>
-          </ul>
         </div>
       </div>
     </div>
@@ -132,10 +133,18 @@ export default {
 
 <style scoped lang="scss">
 .header {
-  border-bottom: 1px solid #565656;
+  padding-top: 5.84rem;
+}
+.header-content {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  z-index: 100;
+  border-bottom: 1px solid #b2382b;
 }
 .store-location {
-  background-color: rgba(51, 51, 51, 0.95);
+  background-color: #333333;
   ul {
     padding-left: 11.2rem;
     margin-bottom: 0;
