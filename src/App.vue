@@ -155,6 +155,10 @@ ul {
 .mb-10 {
   margin-bottom: 6.25rem !important;
 }
+.mb-11 {
+  margin-bottom: 7.25rem;
+}
+
 .mb-n1 {
   margin-bottom: -0.25rem !important;
 }
@@ -190,6 +194,9 @@ ul {
 }
 .pb-10 {
   padding-bottom: 6.25rem;
+}
+.pb-11 {
+  padding-bottom: 7.25rem;
 }
 
 .py-6 {

@@ -26,10 +26,10 @@
         We have a wide variety of dishes to choose from, including tofu soups,
         BBQ, and other Korean specialties and we also have a
         <span>vegetarian menu</span> for those who do not eat meat or dairy.
-        Also there are three different levels of spiciness for our tofu soups:
-        <span>mild</span>, <span>spicy</span>, and <span>very spicy</span>. We
-        want everyone to be able to enjoy our food, no matter their spice
-        tolerance.<br /><br />
+        There are three different levels of spiciness for our tofu soups:
+        <span>mild</span>, <span>spicy</span>, and <span>very spicy</span>,
+        because we want everyone to be able to enjoy our food, no matter their
+        spice tolerance.<br /><br />
 
         <img :src="kfood1" alt="K-Food" style="max-width: 25rem" />
         <br /><br />
@@ -42,8 +42,8 @@
         <br /><br />
 
         Sharing your experiences about our food on social media helps us a lot!
-        <span>Please share pictures and you experiences with others.</span> We
-        hope you enjoy your meal at Cho Dang Tofu & BBQ!
+        <span>Please share pictures and your experiences with others.</span> We
+        hope you enjoy your meal at Cho Dang Tofu & BBQ! Thank you!!!
       </div>
     </b-container>
     <PartFooter />

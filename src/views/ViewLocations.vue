@@ -2,7 +2,10 @@
   <div class="locations">
     <PartHeader />
     <div class="page-title text-center py-10">
-      <h1 class="font-hand-writing-1">Our locations</h1>
+      <h1 class="font-hand-writing-1">
+        Our locations<br />
+        and information
+      </h1>
     </div>
     <div>
       <b-row
