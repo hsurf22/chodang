@@ -3,7 +3,7 @@
     <PartHeader />
     <div>
       <b-container class="pt-10 pb-10 text-center">
-        <div style="max-width: 40rem; display: inline-block">
+        <div style="max-width: 50rem; display: inline-block">
           <h1 class="font-hand-writing-1 text-center mb-7">
             Most frequently asked<br />
             questions from the people

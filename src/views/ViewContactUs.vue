@@ -57,7 +57,7 @@
           >
             Facebook
           </a>
-          <br />
+          <br /><br />
           <a
             class="font-hand-writing-1"
             href="https://Twitter.com"
@@ -65,7 +65,7 @@
           >
             Twitter
           </a>
-          <br />
+          <br /><br />
           <a
             class="font-hand-writing-1"
             href="https://Instagram.com"
@@ -73,7 +73,7 @@
           >
             Instagram
           </a>
-          <br />
+          <br /><br />
           <a
             class="font-hand-writing-1"
             href="https://Tiktok.com"
