@@ -136,6 +136,7 @@ export default {
   padding-top: 5.84rem;
 }
 .header-content {
+  //opacity: 0.4;
   position: fixed;
   top: 0;
   left: 0;

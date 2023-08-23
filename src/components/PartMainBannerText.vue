@@ -9,12 +9,12 @@
         />
       </div>
       <h3
-        class="text-center text-uppercase font-weight-800"
+        class="text-white text-center text-uppercase font-weight-800"
         style="margin-bottom: 0rem"
       >
         CD Tofu
       </h3>
-      <div class="h5 font-hand-writing-3 text-center mb-4">
+      <div class="text-white h5 font-hand-writing-3 text-center mb-4">
         Our most popular Tofu
       </div>
 

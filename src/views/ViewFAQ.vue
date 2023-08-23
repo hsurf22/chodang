@@ -82,6 +82,9 @@ export default {
     PartHeader,
     PartFooter,
   },
+  mounted() {
+    this.gotoTop();
+  },
 };
 </script>
 

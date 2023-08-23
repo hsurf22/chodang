@@ -5,6 +5,7 @@ import ViewLocations from "../views/ViewLocations.vue";
 import ViewAboutUs from "../views/ViewAboutUs.vue";
 import ViewFAQ from "../views/ViewFAQ.vue";
 import ViewContactUs from "../views/ViewContactUs.vue";
+import ViewPrivacyPolicy from "../views/ViewPrivacyPolicy.vue";
 
 Vue.use(VueRouter);
 
@@ -33,6 +34,11 @@ const routes = [
     path: "/contact",
     name: "contact",
     component: ViewContactUs,
+  },
+  {
+    path: "/privacypolicy",
+    name: "privacypolicy",
+    component: ViewPrivacyPolicy,
   },
 ];
 

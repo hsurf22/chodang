@@ -5,32 +5,30 @@
         align: 'prev',
         circular: true,
         autoInit: true,
-        duration: 1000,
+        duration: 600,
       }"
       :plugins="plugins"
       @move-end="onMoveEnd"
     >
       <div
-        class="slide-item"
+        class="slide-item d-flex align-item-center"
         style="
           width: 100%;
           background-image: url(/data/images/banner/banner-1.jpg);
-          padding: 10rem 0;
         "
       >
-        <b-container>
+        <b-container class="d-flex align-items-center">
           <BannerTextBlock />
         </b-container>
       </div>
       <div
-        class="slide-item"
+        class="slide-item d-flex align-items-center"
         style="
           width: 100%;
           background-image: url(/data/images/banner/banner-1.jpg);
-          padding: 7rem 0;
         "
       >
-        <b-container>
+        <b-container class="d-flex align-items-center">
           <BannerTextBlock />
         </b-container>
       </div>
@@ -60,12 +58,17 @@ export default {
   methods: {
     onMoveEnd() {},
   },
-  mounted: () => {},
+  mounted() {
+    this.gotoTop();
+  },
 };
 </script>
 
 <style scoped lang="scss">
+.main-banner {
+}
 .slide-item {
+  height: calc(100vh - 5.84rem);
   background-position: center;
   background-size: cover;
 }

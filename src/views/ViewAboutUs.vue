@@ -74,6 +74,9 @@ export default {
       kfood3: kfood3,
     };
   },
+  mounted() {
+    this.gotoTop();
+  },
 };
 </script>
 

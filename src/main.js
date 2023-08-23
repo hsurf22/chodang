@@ -8,6 +8,12 @@ import { BootstrapVue, IconsPlugin } from "bootstrap-vue";
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap-vue/dist/bootstrap-vue.css";
 
+// Utility object
+import utils from "@/helpers/utils";
+
+// Global method to go to top of the page
+Vue.use(utils.gotoTop);
+
 // Make BootstrapVue available throughout your project
 Vue.use(BootstrapVue);
 // Optionally install the BootstrapVue icon components plugin
