@@ -40,7 +40,11 @@
           <b-col
             v-for="(item, itemKey) in sub_menu.sub_menu_items"
             :key="itemKey"
-            cols="3"
+            cols="12"
+            xl="3"
+            lg="4"
+            md="6"
+            sm="12"
             class="menu-item text-center pb-9"
           >
             <!-- ================================================ -->
@@ -95,7 +99,11 @@
           <!-- ================================================ -->
           <div class="text-center the-last">
             <img
-              style="max-width: 50%; filter: grayscale(1) opacity(25%)"
+              style="
+                max-width: 700px;
+                width: 80%;
+                filter: grayscale(1) opacity(70%);
+              "
               :src="divider"
               alt="Divider"
             />
@@ -178,7 +186,8 @@ export default {
     font-size: 1rem;
   }
   .menu-item-description {
-    font-size: 0.8rem;
+    padding: 0 2rem;
+    font-size: 0.9rem;
     font-weight: 400;
   }
   .menu-item-price {
@@ -189,7 +198,7 @@ export default {
     padding: 0 3.75rem;
     > img {
       border-radius: 50%;
-      width: 100%;
+      max-width: 11rem;
       box-shadow: 0.25rem 0.25rem 0.375rem rgba(0, 0, 0, 0.5);
     }
   }
