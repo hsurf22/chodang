@@ -6,6 +6,7 @@ import ViewAboutUs from "../views/ViewAboutUs.vue";
 import ViewFAQ from "../views/ViewFAQ.vue";
 import ViewContactUs from "../views/ViewContactUs.vue";
 import ViewPrivacyPolicy from "../views/ViewPrivacyPolicy.vue";
+import ViewTermsOfUse from "../views/ViewTermsOfUse.vue";
 
 Vue.use(VueRouter);
 
@@ -36,9 +37,14 @@ const routes = [
     component: ViewContactUs,
   },
   {
-    path: "/privacypolicy",
+    path: "/privacy-policy",
     name: "privacypolicy",
     component: ViewPrivacyPolicy,
+  },
+  {
+    path: "/terms-of-use",
+    name: "termsofuse",
+    component: ViewTermsOfUse,
   },
 ];
 

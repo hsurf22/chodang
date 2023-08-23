@@ -118,6 +118,18 @@ audio,
 video {
   --bs-heading-color: #212529;
 }
+body {
+  --bs-link-color-rgb: #212529;
+}
+* {
+  font-family: "Roboto", sans-serif;
+}
+a {
+  text-decoration: none !important;
+  &:hover {
+    color: var(--bs-link-color-rgb);
+  }
+}
 
 .font-menu {
   font-family: "PT Sans Narrow", sans-serif;
@@ -156,12 +168,6 @@ video {
   }
 }
 
-* {
-  font-family: "Roboto", sans-serif;
-}
-a {
-  text-decoration: none !important;
-}
 ul {
   margin: 0;
   padding: 0;

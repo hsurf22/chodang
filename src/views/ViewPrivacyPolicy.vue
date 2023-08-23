@@ -4,12 +4,13 @@
 
     <b-container class="py-10" style="max-width: 60rem">
       <h1 class="font-menu font-weight-800">PRIVACY POLICY</h1>
+      <br /><br />
       <div class="font-menu-small privacy-policy-content">
         This Privacy Policy describes the policies governing the collection,
         use, and disclosure of information that Cho Dang Tofu & BBQ Group, Inc.,
         a California corporation (“Cho Dang Tofu & BBQ”), collects and receives
         from you, including information relating to your past use of the Cho
-        Dang Tofu & BBQ’s website and services (collectively, the “Site”).
+        Dang Tofu & BBQ's website and services (collectively, the “Site”).
         <br />
         <br />
 
@@ -34,7 +35,7 @@
         <br />
 
         Personal information may be used for general purposes, including, but
-        not limited to, sending you Cho Dang Tofu & BBQ’s newsletters, notifying
+        not limited to, sending you Cho Dang Tofu & BBQ's newsletters, notifying
         you of updates and other products or services that may be of interest to
         you, requesting your voluntary opinion/feedback on current products,
         processing orders you place through the Site, and/or services and
@@ -116,7 +117,7 @@
           <li>
             (5) When Cho Dang Tofu & BBQ believes it to be reasonably necessary
             to investigate, prevent, or take action regarding illegal
-            activities, suspected fraud, violations of Cho Dang Tofu & BBQ’s
+            activities, suspected fraud, violations of Cho Dang Tofu & BBQ's
             Terms of Use, or as otherwise required by law;
           </li>
           <li>
@@ -178,7 +179,7 @@
 
           <li>
             The Right to Object to Processing - You have the right to object to
-            Cho Dang Tofu & BBQ’s processing of your personal data, under
+            Cho Dang Tofu & BBQ's processing of your personal data, under
             certain conditions.
           </li>
           <li>
@@ -198,9 +199,9 @@
         <span>Collection and Use of Information through Other Host Sites</span>
         <br />
         Cho Dang Tofu & BBQ may collaborate with other companies to make Cho
-        Dang Tofu & BBQ’s content and/or services available via their websites
+        Dang Tofu & BBQ's content and/or services available via their websites
         (“Host Sites”). Personal and/or demographic information you provided to
-        Host Sites may be included in Cho Dang Tofu & BBQ’s database, and we
+        Host Sites may be included in Cho Dang Tofu & BBQ's database, and we
         will handle such information received or gathered via Host Sites subject
         to this Privacy Policy.
         <br />
@@ -260,7 +261,7 @@
         <br />
         <br />
 
-        <span>Children’s Privacy and Site Age Limitations</span>
+        <span>Children's Privacy and Site Age Limitations</span>
         <br />
         The Site is intended for use by persons aged 13 or older, and by your
         use of this Site you affirm that you are at least 13 years of age. In

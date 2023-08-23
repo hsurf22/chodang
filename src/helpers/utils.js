@@ -1,20 +1,8 @@
-/*
-export const gotoTop = {
-  install(Vue, options) {
-    Vue.prototype.gotoTop = () => {
-      window.scrollTo(0, 0);
-      console.log("helpers/utils/gotoTop");
-    };
-  },
-};
-*/
-
 export const utils = {
   gotoTop: {
     install: (Vue) => {
       Vue.prototype.gotoTop = () => {
-        window.scrollTo(0, 0);
-        console.log("helpers/utils/gotoTop");
+        window.scrollTo({ top: 0, left: 0, behavior: "instant" });
       };
     },
   },

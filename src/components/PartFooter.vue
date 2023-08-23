@@ -26,6 +26,17 @@
           </div>
         </a>
       </div>
+
+      <div class="text-center text-uppercase mt-5">
+        <router-link :to="{ name: 'privacypolicy' }">
+          <span class="font-footer">Privacy Policy</span>
+        </router-link>
+        <span class="mx-3">|</span>
+        <router-link :to="{ name: 'termsofuse' }">
+          <span class="font-footer">Terms of Use</span>
+        </router-link>
+      </div>
+
       <div class="text-center font-footer mt-5">
         1155 S Diamond Bar Blvd #M Diamond Bar, CA 91765<br />
         © 2020-2023 Cho Dang Tofu, Inc.
