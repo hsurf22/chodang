@@ -1,7 +1,7 @@
 <template>
   <div class="locations">
     <PartHeader />
-    <div class="page-title text-center py-10">
+    <div class="page-title text-center pt-20 pb-10">
       <h1 class="font-hand-writing-1">
         Our locations<br />
         and information

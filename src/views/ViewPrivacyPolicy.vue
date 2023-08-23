@@ -2,7 +2,7 @@
   <div class="privacy-policy">
     <PartHeader />
 
-    <b-container class="py-10" style="max-width: 60rem">
+    <b-container class="pt-20 pb-10" style="max-width: 60rem">
       <h1 class="font-menu font-weight-800">PRIVACY POLICY</h1>
       <br /><br />
       <div class="font-menu-small privacy-policy-content">

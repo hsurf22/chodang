@@ -68,7 +68,7 @@ export default {
 .main-banner {
 }
 .slide-item {
-  height: calc(100vh - 5.84rem);
+  height: 100vh;
   background-position: center;
   background-size: cover;
 }

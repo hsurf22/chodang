@@ -276,6 +276,10 @@ ul {
 .pt-11 {
   padding-top: 7.25rem;
 }
+.pt-20 {
+  padding-top: 12rem;
+}
+
 .pb-6 {
   padding-bottom: 3rem;
 }

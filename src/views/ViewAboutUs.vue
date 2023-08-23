@@ -1,7 +1,7 @@
 <template>
   <div class="about-us">
     <PartHeader />
-    <b-container class="pt-10 pb-5">
+    <b-container class="pt-20 pb-10">
       <h1 class="font-hand-writing-1 text-center">
         <span class="strong">Eat, Drink</span><br />
         and <span class="strong">Enjoy</span> Korean food cultures<br />

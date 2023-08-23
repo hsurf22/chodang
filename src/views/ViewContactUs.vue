@@ -2,7 +2,7 @@
   <div class="contact-us">
     <PartHeader />
     <div>
-      <b-container class="pt-10 pb-10">
+      <b-container class="pt-20 pb-10">
         <h1 class="font-hand-writing-1 text-center">
           You can reach us through <br />
           Phone, e-mail or<br />

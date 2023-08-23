@@ -2,7 +2,10 @@
   <div class="terms-of-use">
     <PartHeader />
 
-    <b-container class="py-10 terms-of-use-content" style="max-width: 60rem">
+    <b-container
+      class="pt-20 pb-10 terms-of-use-content"
+      style="max-width: 60rem"
+    >
       <h1 class="font-menu font-weight-800">TERMS OF USE</h1>
       <br /><br />
       <span>1. Acceptance of Terms</span>
