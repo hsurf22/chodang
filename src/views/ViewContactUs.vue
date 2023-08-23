@@ -8,7 +8,7 @@
           Phone, e-mail or<br />
           Social Media<br />
         </h1>
-        <h3 class="font-hand-writing-1 text-center mb-7">
+        <h3 class="font-hand-writing-1 text-center mt-5 mb-7">
           <span>
             For reservations,<br />
             please give us a call!
