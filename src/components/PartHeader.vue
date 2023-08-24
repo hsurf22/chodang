@@ -4,7 +4,12 @@
     <div class="header-mobile d-block d-lg-none d-xl-none">
       <div class="header-content" :class="hideMenu ? 'hide' : ''">
         <!-- Store locations -->
-        <div class="store-location"></div>
+        <div
+          class="store-location d-flex align-items-center justify-content-end font-weight-800"
+          style="color: white; padding: 0 30px; user-select: none"
+        >
+          <div>EN</div>
+        </div>
 
         <!-- Menu content -->
         <div class="menu-content" style="position: relative">
@@ -236,7 +241,7 @@ export default {
   .store-location {
     margin-bottom: -1px;
     background-color: #333333;
-    height: 34px;
+    height: 38px;
   }
 
   .menu-content {
@@ -257,8 +262,8 @@ export default {
 
     .inner-circle {
       background-color: #dd4535;
-      height: 70px;
-      width: 70px;
+      height: 75px;
+      width: 75px;
       border-radius: 50%;
       display: flex;
       align-items: center;

@@ -164,7 +164,7 @@ export default {
 
 .menu {
   min-height: 100rem;
-  background-color: #323a3e;
+  background-color: #0b0b0b;
   background-image: url(@/assets/img/backgrounds/bg2.svg);
   background-size: 3rem;
 }

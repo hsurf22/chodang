@@ -21,11 +21,24 @@
           <BannerTextBlock />
         </b-container>
       </div>
+
       <div
         class="slide-item d-flex align-items-center"
         style="
           width: 100%;
-          background-image: url(/data/images/banner/banner-1.jpg);
+          background-image: url(/data/images/banner/banner-2.jpg);
+        "
+      >
+        <b-container class="d-flex align-items-center">
+          <BannerTextBlock />
+        </b-container>
+      </div>
+
+      <div
+        class="slide-item d-flex align-items-center"
+        style="
+          width: 100%;
+          background-image: url(/data/images/banner/banner-3.jpg);
         "
       >
         <b-container class="d-flex align-items-center">
