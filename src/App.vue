@@ -19,7 +19,22 @@ export default {
       appClass: "",
     };
   },
-  methods: {},
+  created() {
+    window.addEventListener("resize", this.onWindowSizeChange);
+  },
+  destroyed() {
+    window.removeEventListener("resize", this.onWindowSizeChange);
+  },
+  methods: {
+    onWindowSizeChange() {
+      const windowWidth = window.innerWidth;
+      if (windowWidth < 768) {
+        document.querySelector("html").style.fontSize = "14px";
+      } else {
+        document.querySelector("html").style.fontSize = "16px";
+      }
+    },
+  },
   mounted() {
     setTimeout(() => {
       this.appClass = "app-mounted";

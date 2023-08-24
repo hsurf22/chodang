@@ -277,7 +277,7 @@ export default {
     max-height: 341px;
     position: relative;
     background-color: black;
-    transition: max-height 0.2s ease, opacity 1s ease;
+    transition: max-height 0.2s ease, opacity 0.6s ease;
     &.closed {
       opacity: 0.3;
       max-height: 0;
