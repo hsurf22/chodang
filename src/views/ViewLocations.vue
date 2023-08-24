@@ -12,20 +12,29 @@
         v-for="(location, locationKey) in locations"
         :key="locationKey"
         style="border-top: 5px solid white"
+        class="no-gutters"
       >
         <!-- ================================================ -->
         <!-- Location image -->
         <!-- ================================================ -->
-        <b-col cols="6">
-          <img
-            class="location-image"
-            :src="location.image"
-            :alt="location.name"
-          />
+        <b-col cols="6" xl="6" lg="6" md="12" sm="12">
+          <div
+            :style="{ backgroundImage: `url(${location.image})` }"
+            style="
+              height: 100%;
+              width: 100%;
+              background-position: center;
+              background-size: contain;
+            "
+          ></div>
         </b-col>
         <b-col
           class="location-description d-flex flex-column justify-content-center align-items-center py-5"
           cols="6"
+          xl="6"
+          lg="6"
+          md="12"
+          sm="12"
         >
           <!-- ================================================ -->
           <!-- Location name -->

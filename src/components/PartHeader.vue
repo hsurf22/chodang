@@ -189,12 +189,14 @@ export default {
             //console.log("Scrolling down");
             setTimeout(() => {
               this.hideMenu = true;
+              this.isMobileMenuClosed = true;
             }, 250);
           } else {
             // The user is scrolling up
             //console.log("Scrolling up");
             setTimeout(() => {
               this.hideMenu = false;
+              this.isMobileMenuClosed = true;
             }, 250);
           }
 
@@ -275,7 +277,7 @@ export default {
     max-height: 341px;
     position: relative;
     background-color: black;
-    transition: max-height 0.2s ease, opacity 0.4s ease;
+    transition: max-height 0.2s ease, opacity 0.6s ease;
     &.closed {
       opacity: 0.6;
       max-height: 0;
