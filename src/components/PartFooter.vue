@@ -1,7 +1,7 @@
 <template>
   <div class="footer">
     <b-container class="footer-content">
-      <div class="follow-us text-center mb-3">
+      <div class="follow-us text-center mb-4">
         <img :src="FollowUs" alt="Follow us!" />
       </div>
       <div class="social-media text-center">
@@ -38,7 +38,8 @@
       </div>
 
       <div class="text-center font-footer mt-5">
-        1155 S Diamond Bar Blvd #M Diamond Bar, CA 91765<br />
+        1155 S Diamond Bar Blvd #M<br />
+        Diamond Bar, CA 91765<br /><br />
         © 2020-2023 Cho Dang Tofu, Inc.
       </div>
       <div class="text-center logo-image mt-4">
@@ -72,7 +73,7 @@ export default {
 .follow-us {
   img {
     rotate: -15deg;
-    height: 20rem;
+    height: 12rem;
   }
 }
 .footer {

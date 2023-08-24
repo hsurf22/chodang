@@ -11,26 +11,26 @@
       <b-row
         v-for="(location, locationKey) in locations"
         :key="locationKey"
-        style="border-top: 5px solid white"
-        class="no-gutters"
+        style="border-top: 2rem solid white"
+        class="text-center text-sm-start"
       >
         <!-- ================================================ -->
         <!-- Location image -->
         <!-- ================================================ -->
-        <b-col cols="6" xl="6" lg="6" md="12" sm="12">
+        <b-col cols="12" xl="6" lg="6" md="12" sm="12">
           <div
             :style="{ backgroundImage: `url(${location.image})` }"
             style="
               height: 100%;
-              width: 100%;
+              background-repeat: no-repeat;
               background-position: center;
-              background-size: contain;
+              background-size: cover;
             "
           ></div>
         </b-col>
         <b-col
           class="location-description d-flex flex-column justify-content-center align-items-center py-5"
-          cols="6"
+          cols="12"
           xl="6"
           lg="6"
           md="12"
@@ -56,7 +56,7 @@
               style="
                 height: 1.5rem;
                 width: 0;
-                border-left: 1px solid white;
+                border-left: 1px solid black;
                 margin: 0 1rem;
               "
             ></div>
@@ -73,39 +73,39 @@
             {{ location.fri }}<br />
             {{ location.sat }}
           </div>
-          <div
-            class="font-menu-small h10 font-weight-600 d-flex align-items-center justify-content-center mt-5"
+          <b-row
+            class="features font-menu-small h10 font-weight-600 d-flex align-items-center justify-content-center mt-5"
           >
-            <div class="mx-2">
+            <b-col xl="6" lg="6" md="6" sm="6" xs="6">
               <b-icon
                 v-if="location.delivery"
                 icon="check-square-fill"
               ></b-icon>
               <b-icon v-else icon="square"></b-icon>
               DELIVERY
-            </div>
-            <div class="mx-2">
+            </b-col>
+            <b-col xl="6" lg="6" md="6" sm="6" xs="6">
               <b-icon
                 v-if="location.carryout"
                 icon="check-square-fill"
               ></b-icon>
               <b-icon v-else icon="square"></b-icon>
               CARRYOUT
-            </div>
-            <div class="mx-2">
+            </b-col>
+            <b-col xl="6" lg="6" md="6" sm="6" xs="6">
               <b-icon v-if="location.dine_in" icon="check-square-fill"></b-icon>
               <b-icon v-else icon="square"></b-icon>
               DINE-IN
-            </div>
-            <div class="mx-2">
+            </b-col>
+            <b-col xl="6" lg="6" md="6" sm="6" xs="6">
               <b-icon
                 v-if="location.online_order"
                 icon="check-square-fill"
               ></b-icon>
               <b-icon v-else icon="square"></b-icon>
               ONLINE ORDER
-            </div>
-          </div>
+            </b-col>
+          </b-row>
         </b-col>
       </b-row>
     </div>
@@ -155,11 +155,17 @@ export default {
   color: var(--text-color);
 }
 .location-image {
-  width: 105%;
+  width: 100%;
 }
 .location-description {
   color: var(--text-color);
   background-image: url(@/assets/img/backgrounds/bg-texture-3.jpg);
   background-size: cover;
+}
+.features {
+  max-width: 21rem;
+  * {
+    display: inline;
+  }
 }
 </style>

@@ -5,7 +5,7 @@
 
       <div class="text-center pt-11 mb-8">
         <img
-          style="max-width: 15rem"
+          style="max-width: 10rem"
           :src="pattern"
           alt="Korean signature pattern"
         />

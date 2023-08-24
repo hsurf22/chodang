@@ -250,7 +250,7 @@ export default {
     border: 3px solid #dd4535;
     border-radius: 50%;
     position: absolute;
-    top: -14px;
+    top: -15px;
     left: calc(50% - 38px);
     z-index: 200;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.7);
@@ -277,9 +277,9 @@ export default {
     max-height: 341px;
     position: relative;
     background-color: black;
-    transition: max-height 0.2s ease, opacity 0.6s ease;
+    transition: max-height 0.2s ease, opacity 1s ease;
     &.closed {
-      opacity: 0.6;
+      opacity: 0.3;
       max-height: 0;
     }
     > div {
@@ -348,7 +348,7 @@ export default {
       img {
         filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.3));
         position: absolute;
-        top: -0.813rem;
+        top: -0.713rem;
         left: -9.375rem;
         height: 4.375rem;
       }

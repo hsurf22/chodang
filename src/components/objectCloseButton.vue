@@ -45,10 +45,10 @@ export default {
 
   &.closed {
     div:nth-child(1) {
-      transform: rotate(45deg) translateY(5px) translatex(5px);
+      transform: rotate(45deg) translateY(6px) translatex(6px);
     }
     div:nth-child(2) {
-      transform: rotate(-45deg) translatey(3px) translateX(-3px);
+      transform: rotate(-45deg) translatey(4px) translateX(-4px);
     }
     div:nth-child(3) {
       opacity: 0;
